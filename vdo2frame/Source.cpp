@@ -65,7 +65,7 @@ int main(int argc,char **argv)
 	outputpath = std::string(path);
 	uint c = (uint)cap.get(CAP_PROP_FRAME_COUNT);
 	cout << endl << c;
-	//here we go
+	
 	while (count < c) {
 
 		for (int i = 0; i <6; i++) {
