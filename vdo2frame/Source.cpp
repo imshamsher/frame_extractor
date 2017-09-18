@@ -77,6 +77,7 @@ int main(int argc, char **argv)
 		imwrite(outputpath + "\\" + std::string(fname) + "__FRAME__" + std::to_string(count) + ".jpg", frame);
 		//exit(-1);
 		cout << "no. of images extracted out of " << c << " frames till now are" << count << endl;
+		cout << "wait\n";
 	}
 	cout << endl << "Extraction Done............";
 	cout << endl << "wait For next session...........\n";
